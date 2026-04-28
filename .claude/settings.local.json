@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install *)",
+      "Bash(timeout 60 python monitor_ticketmaster.py)",
+      "Bash(timeout 90 python monitor_ticketmaster.py)"
+    ]
+  }
+}
